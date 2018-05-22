@@ -64,3 +64,28 @@ body{
     height: 25vh;
     flex: 1; 
 }
+.btn{
+    height: 50px;
+    width: 50px;
+    background: black;
+    color: blueviolet;
+    border-radius: 10pt;
+    display: inline-flex;
+}
+.btn2{
+    height: 50px;
+    width: 200px;
+    background: rgb(20, 231, 56);
+    color: blueviolet;
+    border-radius: 10pt;
+    align-content: center;
+    display: inline-flex;
+}
+.btn3{
+    height: 50px;
+    width: 120px;
+    background: #e75714;
+    color: blueviolet;
+    border-radius: 10pt;
+    display: inline-flex;
+}
