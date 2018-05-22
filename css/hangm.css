@@ -69,7 +69,7 @@ body{
     width: 50px;
     background: black;
     color: blueviolet;
-    border-radius: 10pt;
+    border-radius: 5pt;
     display: inline-flex;
 }
 .btn2{
