@@ -1,0 +1,1 @@
+function words={"Rose", "boss","poop","Registration","Drizzy","HYFR","Humble","Love","DNA","papa","Brooklyn"}
