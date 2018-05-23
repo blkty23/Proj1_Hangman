@@ -1,16 +1,18 @@
 body{
     border: solid;
-    /* height: 100vh; */
+    height: 100vh;
     width: 100vw;
     display: inline-block;
     flex-wrap: wrap;
+    background-image: url('../images/dwall.jpg');
+    background-repeat: cover;
 
 }
 #top{
     border: solid;
     height: 25vh;
     width: 100vw;
-    justify-content: center;
+    justify-content: space-between;
     align-content: top;
     display: flex;
 }
@@ -34,6 +36,7 @@ body{
     border: solid;
     height: 25vh;
     flex: 1;
+    
 }
 .pic2{
     border: solid;
@@ -66,7 +69,7 @@ body{
 }
 .btn{
     height: 50px;
-    width: 50px;
+    width: 55px;
     background: black;
     color: blueviolet;
     border-radius: 5pt;
@@ -88,4 +91,37 @@ body{
     color: blueviolet;
     border-radius: 10pt;
     display: inline-flex;
+}
+#spot1{
+    background-image: url('../images/ken1.jpg');
+    background-repeat: no-repeat;
+
+
+}
+#spot2{
+    background-image: url('../images/supper.jpg');
+    background-repeat: no-repeat;
+}
+#spot3{
+    flex-direction: row-reverse;
+    background-image: url('../images/west1.jpg');
+    background-repeat: no-repeat;
+    
+}
+#spot4{
+    background-image: url('../images/pac1.jpg');
+    background-repeat: no-repeat;
+}
+#spot5{
+    background-image: url('../images/big1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#spot6{
+    background-image: url('../images/jay1.jpg');
+    background-repeat: no-repeat;
+}
+#spot7{
+    background-image: url('../images/drake1.jpg');
+    background-repeat: no-repeat;
 }
