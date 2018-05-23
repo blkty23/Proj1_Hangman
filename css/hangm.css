@@ -61,6 +61,9 @@ body{
     height: 25%;
     width: 100%;
     flex-direction: bottom;
+    color: white;
+    text-align: center;
+    font-size: 30px;
 }
 .pic3{
     border: solid;
@@ -101,12 +104,12 @@ body{
 #spot2{
     background-image: url('../images/supper.jpg');
     background-repeat: no-repeat;
+    background-position: center;
 }
 #spot3{
-    flex-direction: row-reverse;
     background-image: url('../images/west1.jpg');
     background-repeat: no-repeat;
-    
+    background-position: right;
 }
 #spot4{
     background-image: url('../images/pac1.jpg');
@@ -125,4 +128,5 @@ body{
 #spot7{
     background-image: url('../images/drake1.jpg');
     background-repeat: no-repeat;
+    background-position: right;
 }
