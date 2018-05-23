@@ -10,7 +10,8 @@ let words = [{
         return(strgdsply);
       }
     },];
-    
+
+//let words = "cool"
     // , "Boss","Poop","Registration","Drizzy","HYFR","Humble","Love","DNA","Papa","Brooklyn","Blueprint","Jigga","Allure"];
     // let words = ["Rose","Boss","Poop","Registration","Drizzy","HYFR","Humble","Love","DNA","Papa","Brooklyn","Blueprint","Jigga","Allure"];
     //const rand = Math.floor(Math.random()*words.length); //Selects a random word from the word list
@@ -28,20 +29,44 @@ let words = [{
     
 
 function button(x){
+    console.log(currentWord);
     //This function makes the button console  
       console.log(x)
-      const n = currentWord.includes(x)
+      const n = currentWord.wrdCh.includes(x);
       console.log(n)
   
           if(n){
-            
+                //word includes letter
               
               console.log('button clicked')
-              document.getElementById('pic2c').src = currentWord
+              //document.getElementById('pic2c').src = currentWord
+
+
+              function match(currentWord, word, letter) {
+
+                // make a function for this loop to happen, call it like functionName (letter)
+                for (let i = 0; i < currentWord.length; i++) {
+        
+                    if (letter === currentWord[i]) {
+                        word[i] = letter
+                        //add to
+                    }
+        
+                    else {
+                        chances++
+                        console.log('chances')
+                    }
+                    console.log("chances"+chances)
+                }
+            }
   
           }
           else {
-  
+                //word does not include letter
+                //call function to deduct value from attempts
+                //fade used letter from keyboard
+
+                wrdchk(x);
          
           }
   }
@@ -54,7 +79,7 @@ function button(x){
     
 
 let attmpt= 6;
-document.getElementById("spotAtmpt").appendChild(attmpt)
+document.getElementById("spotAtmpt").innerHTML = attmpt;
 function attmptcalc(){
     //loop through word
     //if letter matches word[i]
@@ -74,12 +99,12 @@ function attmptcalc(){
 
 
 //let words needs to be set match random word that is selected
-let words = "cool"
+
 //function needs to be connected to other functions
 function wrdchk(x) {
         //This Function deducts a point from six atempts given at the beginning of the game.
         var str = x;
-        var n = str.indexOf("e");
+        var n = str.indexOf(currentWord);
         //document.getElementById("spotAtmpt").innerHTML = n;
 
         if(n === -1){
@@ -87,6 +112,7 @@ function wrdchk(x) {
         }
         console.log(attmpt);
         console.log(n);
+        
 }
 //wrdchk(words[0].wrdch);
 
