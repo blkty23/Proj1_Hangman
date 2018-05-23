@@ -1,5 +1,19 @@
-let words = ["Rose", "Boss","Poop","Registration","Drizzy","HYFR","Humble","Love","DNA","Papa","Brooklyn","Blueprint","Jigga","Allure"];
+let words = [{
+wrdCh: "Rose",
+wrdSpcs: 4,
+wrdltr1: R,
+Wrdltr2: o,
+Wrdltr3: s,
+wrdltr4: e
+wrddsply: function() {
+    console.log("_ _ _ _");
+  }
+},
 
+, "Boss","Poop","Registration","Drizzy","HYFR","Humble","Love","DNA","Papa","Brooklyn","Blueprint","Jigga","Allure"];
+
+
+// let words = ["Rose","Boss","Poop","Registration","Drizzy","HYFR","Humble","Love","DNA","Papa","Brooklyn","Blueprint","Jigga","Allure"];
 const rand = Math.floor(Math.random()*words.length);
 const currentWord = words[rand];
 
@@ -15,7 +29,7 @@ function button(x){
 
         if(n){
 
-       
+            
             console.log('button clicked')
             document.getElementById('pic2c').src = currentWord
 
@@ -26,6 +40,6 @@ function button(x){
         }
 }
 
-for(var i=0, i<=currentWord.length, i++){
-    
+    for(var i=0, i<=currentWord.length, i++){
+        if(i==)
 }
