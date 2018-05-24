@@ -5,17 +5,20 @@ The user should guess the word that relates to HipHop culture and the various ar
 #Objectives Met:
 The objectives of this project are to:
 
-Met_Demonstrate your ability to use HTML and CSS to build and style an intuitive web application
-Demonstrate your competancy in DOM manipulation using JavaScript
-Met_ublish your source code to GitHub with a solid README.md describing the project
+Met_Demonstrate your ability to use HTML and CSS to Met_build and style an intuitive web application
+Met_Demonstrate your competancy in DOM manipulation using JavaScript
+Met_ublish your source code to GitHub with a solid Met_README.md describing the project
 Met_Deploy your application to a production environment such as BitBalloon
 Met_Present your project in a presentation style format
 
 #Bitballoon:
+wonderful-hermann-e79b54.bitballoon.com
 #Trello:
 https://trello.com/b/Ha8g1XQG/proj1hangman
 #Wireframe:
+TyroneGA_p1/Proj1_Hangman/images
 #version2:
 In version2 of HIP_HOP_Hangman I would like to develope the Hints for each word. Also, it would be really cool if the hangman image was Tupac Makevelie hanging on the cross.  This effort would require some image manipulation using photoshop.
 #problems:
-The biggest problem on this project was time management. Initially, I was under the impression, the class would be given a week to complete the project.  However, we were given three and a half days.  I also struggles with DOM manipulation because I was behind on class material because of various reasons.
+The biggest problem on this project was time management. Initially, I was under the impression, the class would be given a week to complete the project.  However, we were given three and a half days.  I also struggled with DOM manipulation because I was behind on class material because of various reasons. The keyboard button does not push the letter into the array and/or display in the DOM.
+With more time this feature would surely be implemented.
