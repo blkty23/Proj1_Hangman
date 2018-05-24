@@ -1,5 +1,5 @@
 let words = [{
-    wrdCh: "Rose",
+    wrdCh: "rose",
     wrdSpcs: 4,
     wrdltr1: "R",
     Wrdltr2: "o",
