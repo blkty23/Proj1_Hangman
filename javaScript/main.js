@@ -6,8 +6,9 @@ let words = [{
     Wrdltr3: "s",
     wrdltr4: "e",
     wrddsply: function() {
-        let strgdsply = "_ _ _ _"
+        let strgdsply = ["_", "_", "_","_"]
         return(strgdsply);
+
       }
     },];
 
@@ -15,7 +16,7 @@ let words = [{
     // , "Boss","Poop","Registration","Drizzy","HYFR","Humble","Love","DNA","Papa","Brooklyn","Blueprint","Jigga","Allure"];
     // let words = ["Rose","Boss","Poop","Registration","Drizzy","HYFR","Humble","Love","DNA","Papa","Brooklyn","Blueprint","Jigga","Allure"];
     //const rand = Math.floor(Math.random()*words.length); //Selects a random word from the word list
-    // const currentWord = words[rand];
+    //const currentWord = words[rand];
     
     
     const currentWord = words[0];
@@ -42,21 +43,21 @@ function button(x){
               //document.getElementById('pic2c').src = currentWord
 
 
-              function match(currentWord, word, letter) {
+              function match(currentWord,x) {
 
                 // make a function for this loop to happen, call it like functionName (letter)
                 for (let i = 0; i < currentWord.length; i++) {
         
-                    if (letter === currentWord[i]) {
-                        word[i] = letter
+                    if (x === currentWord[i]) {
+                        words[i] = x
                         //add to
                     }
         
-                    else {
-                        chances++
-                        console.log('chances')
-                    }
-                    console.log("chances"+chances)
+                    //else {
+                        //chances++
+                        //console.log('chances')
+                    //}
+                    //console.log("chances"+chances)
                 }
             }
   
