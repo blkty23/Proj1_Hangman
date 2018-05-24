@@ -23,4 +23,4 @@ In version2 of HIP_HOP_Hangman I would like to develope the Hints for each word.
 The biggest problem on this project was time management. Initially, I was under the impression, the class would be given a week to complete the project.  However, we were given three and a half days.  I also struggled with DOM manipulation because I was behind on class material because of various reasons. The keyboard button does not push the letter into the array and/or display in the DOM.
 With more time this feature would surely be implemented.
 
-afasfwefwe
+afasf
