@@ -79,7 +79,7 @@ function button(x){
     
 
 let attmpt= 6;
-document.getElementById("spotAtmpt").innerHTML = attmpt;
+document.getElementById("spotAtmpt").innerHTML = "Remaining Attempts: " + attmpt;
 function attmptcalc(){
     //loop through word
     //if letter matches word[i]
@@ -108,11 +108,16 @@ function wrdchk(x) {
         //document.getElementById("spotAtmpt").innerHTML = n;
 
         if(n === -1){
-          attmpt = attmpt - 1
+          attmpt = attmpt - 1;
         }
-        console.log(attmpt);
-        console.log(n);
         
+        console.log(attmpt);
+        document.getElementById("spotAtmpt").innerHTML = "Remaining Attempts: " + attmpt;
+        console.log(n);
+        //Make selected key fade out
+        //if(attmpt=0){
+        //document.getElementById("spotAtmpt").innerHTML = "You Wack...GAME OVER FOOL";   
+        //}
 }
 //wrdchk(words[0].wrdch);
 
