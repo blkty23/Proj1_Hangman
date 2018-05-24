@@ -5,12 +5,10 @@ let words = [{
     Wrdltr2: "o",
     Wrdltr3: "s",
     wrdltr4: "e",
-    wrddsply: function() {
-        let strgdsply = ["_", "_", "_","_"]
-        return(strgdsply);
+    wrddsply: ["_", "_", "_","_"]
+    },]
 
-      }
-    },];
+    //let strgdsply = ["_", "_", "_","_"]
 
 //let words = "cool"
     // , "Boss","Poop","Registration","Drizzy","HYFR","Humble","Love","DNA","Papa","Brooklyn","Blueprint","Jigga","Allure"];
@@ -22,7 +20,7 @@ let words = [{
     const currentWord = words[0];
     console.log(currentWord.wrdCh);
     const wrdshw = document.createElement("P");                       // Create a <p> element
-    const t = document.createTextNode(words[0].wrddsply());       // Create a text node
+    const t = document.createTextNode(words[0].wrddsply);       // Create a text node
     wrdshw.appendChild(t);                                          // Append the text to <p>
     //document.div.pic2c.appendChild(wrdshw);                              // Append <p> to <body>
     document.getElementById("spot4a").appendChild(wrdshw);
@@ -35,31 +33,16 @@ function button(x){
       console.log(x)
       const n = currentWord.wrdCh.includes(x);
       console.log(n)
-  
+            // if n = true
           if(n){
-                //word includes letter
-              
+                // push x (replace) to the correct position (i = 0) in strgdsply
+            // words.replace(/"_"/g, x)
               console.log('button clicked')
+            console.log(words.wrddsply[0])
               //document.getElementById('pic2c').src = currentWord
 
 
-              function match(currentWord,x) {
-
-                // make a function for this loop to happen, call it like functionName (letter)
-                for (let i = 0; i < currentWord.length; i++) {
-        
-                    if (x === currentWord[i]) {
-                        words[i] = x
-                        //add to
-                    }
-        
-                    //else {
-                        //chances++
-                        //console.log('chances')
-                    //}
-                    //console.log("chances"+chances)
-                }
-            }
+              
   
           }
           else {
@@ -75,6 +58,25 @@ function button(x){
   //     for(var i=0, i<=currentWord.length, i++){
   //         if(i==)
   // }
+
+//   function match(currentWord,x) {
+
+//     // make a function for this loop to happen, call it like functionName (letter)
+//     for (let i = 0; i < currentWord.length; i++) {
+
+//         if (x === currentWord[i]) {
+//             words[i] = x
+//             // replace "_" with words[i] in strgdsply
+//             //add to
+//         }
+
+//         //else {
+//             //chances++
+//             //console.log('chances')
+//         //}
+//         //console.log("chances"+chances)
+//     }
+// }
     
     
     
